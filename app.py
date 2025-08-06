@@ -8,11 +8,11 @@ app = Flask(__name__, template_folder=Path("./templates"))
 def index():
   return render_template('index.html')
 
-@app.route('/developer')
+@app.route('/developer/')
 def pope():
   return render_template('popeye.html')
 
-@app.route('/popeye')
+@app.route('/popeye/')
 def popeyes():
   return render_template('index.html')
 
