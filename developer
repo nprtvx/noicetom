@@ -1,11 +1,14 @@
-<div>
-    popeye
-    
-    the developer
-    
-    skills: programming paradigms, technology
-    
-    10 YoE - progeramming, web development,
-        server/client communication,
-        app development, XSS, cors, ...
-</div>
+<!Doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+        <title>noicetom</title>
+        <link rel='stylesheet/css' href='style.css' />
+    </head>
+    <body>
+        
+<div class='popeye'>{popeye.pope}</div>
+
+    </body>
+</html>
