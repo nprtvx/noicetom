@@ -10,7 +10,7 @@ def index():
 
 @app.route('/developer')
 def pope():
-  return f'<div>{popeye.pope}</div>'
+  return render_template('popeye.html')
 
 if __name__=='__main__':
     app.run(debug=False)
