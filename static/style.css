@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 body {
-background-image: radial-gradient(toLeft, #000d, #000d);
+background-image: #000d;
 }
 
 h1 {
