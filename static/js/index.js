@@ -6,3 +6,4 @@ popeye.addEventListener('click', () => {
     popeye.textContent = 'popeye the developer';
     popeye.style.display = 'flex';
 });
+document.body.append(popeye);
