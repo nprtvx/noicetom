@@ -8,7 +8,7 @@
     </head>
     <body>
         
-<div class='popeye'>{popeye.pope}</div>
+<div class='popeye'>popeye.pope</div>
 
     </body>
 </html>
