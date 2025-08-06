@@ -1,6 +1,7 @@
 from flask import Flask, render_template
+from pathlib import Path
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=Path("./templates"))
 
 @app.route('/')
 def index():
