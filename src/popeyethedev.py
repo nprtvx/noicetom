@@ -1,9 +1,6 @@
 # popeye the dev
-from app import app
 
-@app.route('/developer')
-def pope():
-    return f"""
+pope = f"""
     popeye
     
     the developer
@@ -13,4 +10,4 @@ def pope():
     10 YoE - progeramming, web development,
         server/client communication,
         app development, XSS, cors, ...
-    """
+"""
