@@ -6,6 +6,15 @@ box-sizing: border-box;
 
 body {
 background: #000;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: column;
 }
 
 h1 {
@@ -13,6 +22,5 @@ text-transform: uppercase;
 color: #922611CC;
 border: 2px solid #261192CC;
 width: 80%;
-text-align: center;
 letter-spacing: 0.8rem;
 }
