@@ -12,5 +12,9 @@ def index():
 def pope():
   return render_template('popeye.html')
 
+@app.route('/popeye')
+def popeyes():
+  return render_template('index.html')
+
 if __name__=='__main__':
     app.run(debug=False)
