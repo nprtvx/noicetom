@@ -1,4 +1,5 @@
 # popeye the dev
+import app
 
 @app.route('/developer')
 def pope():
