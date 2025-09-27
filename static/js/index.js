@@ -9,7 +9,12 @@ popeye.addEventListener('click', () => {
 document.body.append(popeye);
 
 const nprtvx = document.getElementById("nprtvx");
-
+nprtvx.addEventListener("load", () => {
+   if(window.availWidth !== 0 && window.availHeight !== 0) {
+      nprtvx.style.width = window.availWidth;
+      nprtvx.style.height = window.availHeight;
+      nprtvx.style.backgroundColor = "#638294";
+   }
 nprtvx.addEventListener("click", () => {
     nprtvx.style.backgroundColor = "#26111992";
     nprtvx.style.width = "26px";
