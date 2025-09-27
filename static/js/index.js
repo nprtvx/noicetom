@@ -11,9 +11,9 @@ document.body.append(popeye);
 const nprtvx = document.getElementById("nprtvx");
 nprtvx.textContent = `nprtvx`;
 nprtvx.addEventListener("load", () => {
-   if(window.availWidth !== 0 && window.availHeight !== 0) {
-      nprtvx.style.width = window.availWidth;
-      nprtvx.style.height = window.availHeight;
+   if(window.screen.availWidth !== 0 && window.screen.availHeight !== 0) {
+      nprtvx.style.width = window.screen.availWidth;
+      nprtvx.style.height = window.screen.availHeight;
       nprtvx.style.backgroundColor = "#638294";
    }
 });
