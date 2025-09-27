@@ -9,7 +9,7 @@ popeye.addEventListener('click', () => {
 document.body.append(popeye);
 
 const nprtvx = document.getElementById("nprtvx");
-nprtvx.textContent = "nprtvx".toUppercase();
+nprtvx.textContent = `nprtvx`;
 nprtvx.addEventListener("load", () => {
    if(window.availWidth !== 0 && window.availHeight !== 0) {
       nprtvx.style.width = window.availWidth;
