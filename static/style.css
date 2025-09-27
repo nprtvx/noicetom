@@ -25,3 +25,10 @@ width: 80%;
 text-align: center;
 letter-spacing: 0.8rem;
 }
+
+#nprtvx {
+position: absolute;
+width: 400px;
+height: 100px;
+backgroundColor: #0008;
+}
