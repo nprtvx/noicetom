@@ -15,6 +15,7 @@ nprtvx.addEventListener("load", () => {
       nprtvx.style.height = window.availHeight;
       nprtvx.style.backgroundColor = "#638294";
    }
+});
 nprtvx.addEventListener("click", () => {
     nprtvx.style.backgroundColor = "#26111992";
     nprtvx.style.width = "26px";
